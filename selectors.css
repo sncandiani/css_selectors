@@ -1,0 +1,55 @@
+/* The header is given a border */
+header {
+    background-color: goldenrod;
+    border: 1px, solid, black;
+}
+/* The unordered list has its bullet points removed */
+ul {
+    list-style-type: none;
+}
+/* All with the class disabled will be gray */
+.disabled{
+    color: gray;
+} 
+/* All with the class disabled that have the anchor tag will be purple */
+a.disabled {
+    color: purple;
+}
+/* All with the class active will have text colored yellow */
+ .active {
+    color: yellow;
+} 
+/* .parent div div will begin at the parent , .parent 
+div #1 will be referring to the overall div 
+div #2 will be referring to I'm red! 
+*/
+.parent div div{
+    color: red;
+} 
+.parent div h4{
+    background-color: blue;
+}
+  
+.parent div h4 + div {
+    color: blue;
+} 
+.parent div h4:first-of-type  {
+    background-color: red;
+}
+
+
+
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+
+.padded input {
+    line-height: 25px;
+}
+.grandparent > h4{
+    border: 1px solid black;  
+    border-radius: 25px;
+  
+}
